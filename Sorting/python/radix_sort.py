@@ -17,7 +17,7 @@ def radix_sort(nums, base=10):
         power += 1
     return result_list
 
-//check
+
 nums = [random.randint(0, 1000) for _ in range(15)]
 print(nums)
 print()
