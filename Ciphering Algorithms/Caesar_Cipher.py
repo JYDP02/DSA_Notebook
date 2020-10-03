@@ -46,8 +46,8 @@ if t == "1":
     message = input("Enter message to cipher : ")
     key = int(input("Enter key value : "))
 
-    cipher_message = caesar_cipher(message, key)
-    print("Ciphered Message : "+cipher_message+"\n")
+    ciphered_message = caesar_cipher(message, key)
+    print("Ciphered Message : "+ciphered_message+"\n")
 
 if t == "2":
     message = input("Enter message to decipher : ")
